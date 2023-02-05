@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #c0c0c0;
+    --background-light: #f5f5f5;
+    --background-yellow: #dad234;
+    --background-blue: #000067;
+
+    --text: #f5f6fA;
+    --text-dark: #a1a1a1;
+    --text-black: #020202;
+}
+
+body {
+    background: var(--background);
+}
+
+body, button, input {
+    color: var(--text);
+    font: 400 16px Helvitica, sans-serif;
+}
+
+button {
+    border: 0;
+    background: transparent;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+}
