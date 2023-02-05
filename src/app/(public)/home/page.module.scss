@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px 0;
+
+    input {
+        width: 600px;
+        border: 0;
+        padding: 15px 15px;
+        border-radius: 8px;
+        outline: none;
+        color: var(--text-black);
+        background: var(--background-light);
+    }
+
+    button {
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        color: var(--tex);
+        background: var(--background-blue);
+    }
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: var(--background-light);
+    color: var(--text-black);
+
+    .tabela__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            color: var(--text-dark);
+        }
+
+    }
+
+
+}
+
